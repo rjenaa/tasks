@@ -4,7 +4,7 @@
  *      C = (F - 32) * 5/9
  */
 export function fahrenheitToCelius(temperature: number): number {
-    let celius: number = ((temperature - 32) * 5) / 9;
+    const celius: number = ((temperature - 32) * 5) / 9;
     return celius;
 }
 
@@ -60,7 +60,7 @@ export function convertYesNo(word: string): boolean | null {
     } else if (word == "no") {
         convert = false;
     } else {
-        convert = null;
+        return null;
     }
     return convert;
 }
