@@ -1,4 +1,4 @@
-import { queries, queryByTestId } from "@testing-library/react";
+//import { queries, queryByTestId } from "@testing-library/react";
 import { Question, QuestionType } from "./interfaces/question";
 
 /**
