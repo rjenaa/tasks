@@ -1,4 +1,5 @@
-//import { queries, queryByTestId } from "@testing-library/react";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { queries, queryByTestId } from "@testing-library/react";
 import { Question, QuestionType } from "./interfaces/question";
 
 /**
