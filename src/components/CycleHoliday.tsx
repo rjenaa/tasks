@@ -1,10 +1,5 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-interface holidays {
-    current: string;
-    alphabet: string;
-    year: string;
-}
 
 export function CycleHoliday(): JSX.Element {
     const holidayAlphabet: Record<string, string> = {
