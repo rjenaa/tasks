@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-//import { dhValue, setDhValue } from "./DoubleHalfState";
+
 interface DoubleHalfProps {
     dhValue: number;
     setDhValue: (dhValue: number) => void;
