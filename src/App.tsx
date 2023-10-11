@@ -22,18 +22,8 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript. Hello World.
+                UD CISC275 with React Hooks and TypeScript.
             </header>
-            <h1>This is header text.</h1>
-            <img src={PSV} alt="Best Club in the World." />
-            <div>
-                PSV will win the league this year because:
-                <ol>
-                    <li>They brought back Lozano.</li>
-                    <li>Tillman and Pepi off the bench.</li>
-                    <li>Best forwards in the league.</li>
-                </ol>
-            </div>
             <div>
                 <Container>
                     <Row>
