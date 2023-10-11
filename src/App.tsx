@@ -15,18 +15,6 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript.
             </header>
             <div>
-                <Container>
-                    <Row>
-                        <Col>
-                            <div className="rectangle"></div>
-                        </Col>
-                        <Col>
-                            <div className="rectangle"></div>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-            <div>
                 <Button onClick={() => console.log("Hello World!")}>
                     {" "}
                     Log Hello World{" "}
