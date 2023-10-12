@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { StartAttempt } from "./components/StartAttempt";
@@ -22,7 +22,7 @@ function App(): JSX.Element {
             </div>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload.Ray Escobar
+                automatically reload.
             </p>
             <hr></hr>
             <Counter></Counter>
