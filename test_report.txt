@@ -30,7 +30,7 @@ File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovere
 -----------------------------|---------|----------|---------|---------|-------------------
 All files                    |   99.59 |    97.97 |    99.2 |   99.58 |                   
  src                         |   99.37 |    98.46 |   98.63 |   99.35 |                   
-  App.tsx                    |      50 |      100 |      50 |      50 | 39                
+  App.tsx                    |      50 |      100 |      50 |      50 | 27                
   arrays.ts                  |     100 |    95.83 |     100 |     100 | 15                
   functions.ts               |     100 |      100 |     100 |     100 |                   
   nested.ts                  |     100 |      100 |     100 |     100 |                   
@@ -61,5 +61,5 @@ All files                    |   99.59 |    97.97 |    99.2 |   99.58 |
 Test Suites: 20 passed, 20 total
 Tests:       134 passed, 134 total
 Snapshots:   0 total
-Time:        17.326 s
+Time:        13.297 s
 Ran all test suites.
